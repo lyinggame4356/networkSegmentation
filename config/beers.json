@@ -1,0 +1,69 @@
+{
+    "lagers" : {
+        "name" : "lager",
+        "color": null,
+        "ingredients" : null,
+        "url" : null,
+        "types" : [
+            {"pilsener" : [
+                {"american pilsener"},
+                {"german pilsener"},
+                {"bohemian pilsener"}
+            ]},
+            {"european" : [
+                {"pale"},
+                {"dark"}
+            ]},
+            {"german" : [
+                {"bock" : [
+                    {"doppel bock"},
+                ]},
+                {"dunkel"}
+            ]},
+            {"american"},
+            {"porter"},
+        ],
+        "enable" : true
+    },
+    "ales" : {
+        "name" : "ale",
+        "color" : null,
+        "ingredients" : null,
+        "url" : null,
+        "types" : [
+            {"irish"},
+            {"german" : [
+                {"weissbier" : [
+                    {"dunkelweizen"},
+                    {"hefeweizen"},
+                ]}
+            ]},
+            {"belgian" : [
+                {"saison"},
+                {"belgian pale" : [
+                    {"belgian strog ale"},
+                    {"tripel"}
+                ]}
+            ]},
+            {"pale"},
+            {"porter"},
+            {"stout"},
+            {"lambic"},
+            {"brown"},
+        ],
+        "enable" : true
+    },
+    "lambic" : {
+        "name" : "lambic",
+        "color" : null,
+        "ingredients" : null,
+        "url" : null,
+        "types" : [
+            {"gueze"},
+            {"faro"},
+            {"kriek"}
+            {"frambozen"}
+        ],
+        "enable" : false
+    }
+}
